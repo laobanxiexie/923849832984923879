@@ -1,30 +1,69 @@
-   <table border="1">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Alle Enden</title>
+    <link rel="stylesheet" href="ende.css">
+    <style>
+        td {
+            border: 1px solid black
+        }
+
+        th {
+            border: 1px solid black
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Übersicht der möglichen Enden</h1>
+
+    <table>
       <thead>
         <tr>
-          <th>Nummer</th>
-          <th>Bild</th>
-          <th>Link</th>
-          <th>Verbundene Nummern</th>
+          <th>Ort</th>
+          <th>Entscheidung</th>
+          <th>Ergebnis</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td><img src="wald.jpg" width="100" alt="Wald"></td>
-          <td><a href="wald.html">Start</a></td>
-          <td>2, 3</td>
+          <td>Höhle</td>
+          <td>Kristalle untersuchen</td>
+          <td>Gewonnen (Kristallschatz)</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td><img src="höhle.jpg" width="100" alt="Höhle"></td>
-          <td><a href="höhle.html">Höhle</a></td>
-          <td>1</td>
+          <td>Höhle</td>
+          <td>Tiefer gehen</td>
+          <td>Verloren (Bär)</td>
         </tr>
         <tr>
-          <td>3</td>
-          <td><img src="lichtung.jpg" width="100" alt="Lichtung"></td>
-          <td><a href="lichtung.html">Wald</a></td>
-          <td>4, 5</td>
+          <td>Lichtung</td>
+          <td>Schlangenpfad</td>
+          <td>Verloren (Gift)</td>
+        </tr>
+        <tr>
+          <td>Verlies</td>
+          <td>Geheimtür öffnen</td>
+          <td>Gewonnen (Goldschatz)</td>
+        </tr>
+        <tr>
+          <td>Turm</td>
+          <td>Tür öffnen</td>
+          <td>Verloren (Sturz)</td>
+        </tr>
+        <tr>
+          <td>Turm</td>
+          <td>Zimmer betreten</td>
+          <td>Gewonnen (Magier)</td>
+        </tr>
+        <tr>
+          <td>Turm</td>
+          <td>Aufs Dach steigen</td>
+          <td>Verloren (Sturz)</td>
         </tr>
       </tbody>
     </table>
+
+    <p><a href="index.html">Zurück zum Start</a></p>
+  </body>
+</html>
