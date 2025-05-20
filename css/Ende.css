@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(202, 248, 220);
+  color: black;
+  font-family: sans-serif;
+}
+
+a {
+  color: blue;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+img {
+  height: 100px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
